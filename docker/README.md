@@ -2,12 +2,8 @@
 
 # Looking Glass
 
-Easy to deploy Looking Glass made in PHP.
+Easy to deploy Looking Glass docker image.
 
-## Requirements
-
-  * Webserver such as Apache 2, or Lighttpd, etc…
-  * PHP (>= 5.3) module for the webserver (mod-php5 for Apache 2 for example)
 
 ## Description
 
@@ -35,7 +31,7 @@ future:
 
 ## Configuration
 
-Copy the configuration **config.php.example** file to create a **config.php**
+Map a copy the of configuration file **[config.php.example](https://github.com/RungeICT/looking-glass/blob/master/config.php.example)** file to **/var/www/html/config.php**
 file. It contains all the values (PHP variables) used to customize the looking
 glass.
 
